@@ -26,7 +26,7 @@
     ],
     "icon": "images/icon.png",
     "galleryBanner": {
-        "color": "#f66f62",
+        "color": "#00ccff",
         "theme": "dark"
     },
     "categories": [
