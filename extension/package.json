@@ -2,7 +2,7 @@
     "name": "isengine-vscode-snippets",
     "displayName": "isEngine Snippets",
     "description": "isEngine development snippets for Visual Studio Code",
-    "version": "1.0",
+    "version": "1.0.0",
     "publisher": "isengine",
     "author": {
         "name": "Max Nikonov",
