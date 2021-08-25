@@ -1,0 +1,43 @@
+{
+    "name": "isengine-vscode-snippets",
+    "displayName": "isEngine Snippets",
+    "description": "isEngine development snippets for Visual Studio Code",
+    "version": "1.0",
+    "publisher": "isengine",
+    "author": {
+        "name": "Max Nikonov",
+        "email": "mail@isengine.org",
+        "url": "https://isengine.org"
+    },
+    "homepage": "https://github.com/isengine/vscode-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/isengine/vscode-snippets"
+    },
+    "bugs": {
+        "url": "https://github.com/isengine/vscode-snippets/issues"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "keywords": [
+        "isengine",
+        "snippet"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#f66f62",
+        "theme": "dark"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/isengine.json"
+            }
+        ]
+    }
+}
