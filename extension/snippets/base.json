@@ -1,0 +1,106 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"is-1": {
+		"scope": "php",
+		"prefix": "[",
+		"body": [
+			"{",
+			" \"$1\" : \"$2\"",
+			"}"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"is-2": {
+		"scope": "php",
+		"prefix": "[[",
+		"body": [
+			",",
+			" \"$1\" : \"$2\""
+		],
+		"description": "isEngine snippets group..."
+	},
+	"is-3": {
+		"scope": "php",
+		"prefix": "?",
+		"body": [
+			"<?php $1?>",
+		],
+		"description": "isEngine snippets group..."
+	},
+	"is-4": {
+		"scope": "php",
+		"prefix": "??",
+		"body": [
+			"<?= $1?>",
+		],
+		"description": "isEngine snippets group..."
+	},
+	"is-5": {
+		"scope": "php",
+		"prefix": "???",
+		"body": [
+			"<?php",
+			"",
+			"namespace is;",
+			"",
+			"use is\Helpers\System;",
+			"use is\Helpers\Strings;",
+			"use is\Helpers\Objects;",
+			"use is\Masters\View;",
+			"",
+			"$view = View::getInstance();",
+			"",
+			"$1",
+			"",
+			"?>"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"is-01": {
+		"scope": "php",
+		"prefix": "1",
+		"body": [
+			"foreach ($$1 as $key$2 => $item$3) {",
+			"	$4",
+			"}",
+			"unset($key$5, $item$6);"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"is-02": {
+		"scope": "php",
+		"prefix": "2",
+		"body": [
+			"if ($1) {",
+			"	$2",
+			"}"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"is-03": {
+		"scope": "php",
+		"prefix": "3",
+		"body": [
+			" elseif ($1) {",
+			"	$2",
+			"}"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"is-04": {
+		"scope": "php",
+		"prefix": "4",
+		"body": [
+			" else {",
+			"	$1",
+			"}"
+		],
+		"description": "isEngine snippets group..."
+	}
+}

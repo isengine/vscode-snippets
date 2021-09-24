@@ -3,10 +3,6 @@
 [`isEngine Snippets`](https://marketplace.visualstudio.com/items?itemName=isengine.vscode-snippets) extension for Visual Studio Code.
 - isEngine 1.0
 
-## Screenshot
-
-![Screenshot](https://github.com/isengine/vscode-snippets/raw/master/images/screenshot.gif)
-
 ## Usage
 
 Base print `is` and next letters.

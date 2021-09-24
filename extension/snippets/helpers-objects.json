@@ -1,0 +1,10 @@
+{
+	"helpers-objects": {
+		"scope": "php",
+		"prefix": "iso",
+		"body": [
+			"Objects::$1"
+		],
+		"description": "Helpers Objects"
+	}
+}

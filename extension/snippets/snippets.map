@@ -1,0 +1,369 @@
+helpers
+
+ish  datetimes
+ish    amount
+ish    format
+ish    convertFormat
+ish    create
+ish    convert
+ish    compare
+ish    time
+ish    mtime
+ish    milliseconds
+ish  local
+ish    map
+ish    search
+ish    copyFile
+ish    createFile
+ish    createFolder
+ish    deleteFolder
+ish    eraseFolder
+ish    matchFolder
+ish    matchFile
+ish    readFile
+ish    readFileLine
+ish    readFileArray
+ish    readFileGenerator
+ish    writeFile
+ish    writeFileLine
+ish    writeFileGenerator
+ish    deleteFile
+ish    eraseFile
+ish    link
+ish    copy
+ish    saveFromUrl
+ish    openUrl
+ish    requestUrl
+ish    unzip
+ish  match
+ish    equal
+ish    string
+ish    regexp
+ish    mask
+ish    numeric
+ish    equalIn
+ish    stringIn
+ish    regexpIn
+ish    maskIn
+ish    numericIn
+ish    equalOf
+ish    stringOf
+ish    regexpOf
+ish    maskOf
+ish    numericOf
+ish  objects
+ish    associate
+ish    numeric
+ish    convert
+ish    keys
+ish    values
+ish    match
+ish    find
+ish    get
+ish    cut
+ish    before
+ish    after
+ish    add
+ish    reverse
+ish    first
+ish    last
+ish    refirst
+ish    relast
+ish    unfirst
+ish    unlast
+ish    len
+ish    split
+ish    join
+ish    combine
+ish    combineByIndex
+ish    merge
+ish    each
+ish    clear
+ish    unique
+ish    sort
+ish    random
+ish    difference
+ish    pairs
+ish    pairsByIndex
+ish    flip
+ish    inject
+ish    extract
+ish    reset
+ish  parser
+ish    textVariables
+ish    fromString
+ish    toString
+ish    fromJson
+ish    toJson
+ish  prepare
+ish    clear
+ish    script
+ish    stripTags
+ish    trim
+ish    spaces
+ish    comments
+ish    format
+ish    letters
+ish    words
+ish    text
+ish    alphanumeric
+ish    numeric
+ish    datetime
+ish    phone
+ish    codephone
+ish    login
+ish    email
+ish    url
+ish    simpleurl
+ish    urlencode
+ish    urldecode
+ish    onestring
+ish    code
+ish    entities
+ish    tags
+ish    notags
+ish    cleartags
+ish    len
+ish    upper
+ish    lower
+ish    upperFirst
+ish    upperEach
+ish    encode
+ish    decode
+ish    hash
+ish    matchHash
+ish    crypt
+ish    matchCrypt
+ish  sessions
+ish    setCookie
+ish    getCookie
+ish    unCookie
+ish    reload
+ish    setHeader
+ish    setHeaderCode
+ish    setHash
+ish    getHash
+ish  strings
+ish    match
+ish    find
+ish    get
+ish    cut
+ish    before
+ish    after
+ish    add
+ish    multiply
+ish    reverse
+ish    first
+ish    last
+ish    refirst
+ish    relast
+ish    unfirst
+ish    unlast
+ish    len
+ish    split
+ish    join
+ish    combine
+ish    combineMask
+ish    except
+ish    replace
+ish    clear
+ish    unique
+ish    sort
+ish    random
+ish    difference
+ish    pairs
+ish    pairsByIndex
+ishy  system
+ishyd    debug
+ishye    exists
+ishyi    includes
+ishyse    server
+ishys    set
+ishysr    setReturn
+ishyt    type
+ishyto    typeOf
+ishytd    typeData
+ishytc    typeClass
+ishyti    typeIterable
+
+
+prefix 'q' is quick common commands:
+
+alone character prints command lower case
+double character to print the same command with a capital letter
+three characters turn the command into a variable
+
+a add
+a api
+b by
+c collection
+c config
+d data
+d database
+d dom
+d driver
+e each
+e entry
+f first
+f filter
+g get
+i item
+i iterable
+i index
+i id
+k key
+l last
+m masters
+m modules
+n name
+s set
+s state
+t type
+u uri
+u user
+v view
+
+support special symbols
+
++ true
+- false
+-- null
+* /* */
+/ //
+! <!-- -->
+. space.space
+/ DS
+' ''
+'' ""
+''' «»
+, ->
+
+'[' print:
+> {
+> 	"" : ""
+> }
+
+'[[' print:
+> 	,
+> 	"" : 
+
+']' print:
+> [
+> 	'' => ''
+> ];
+
+']]' print:
+>	,
+>	'' => 
+
+'?' print:
+> <?php ?>
+
+'??' print:
+> <?= ?>
+
+'???' print:
+> <?php
+> 
+> namespace is;
+> 
+> use is\Helpers\System;
+> use is\Helpers\Strings;
+> use is\Helpers\Objects;
+> use is\Masters\View;
+> 
+> $view = View::getInstance();
+> 
+> ?>
+
+'1' print:
+> foreach ($ as $key => $item) {
+> 	
+> }
+> unset($key, $item);
+
+'2' print:
+> if () {
+> 	
+> }
+'3' print:
+>  elseif () {
+> 	
+> }
+'4' print:
+>  else {
+> 	
+> }
+
+prefix 'is' is global prefix for most operation
+
+'ish' is call helpers groups, for example, 'isho' prints:
+
+> Objects::
+
+other modifiers call helpers functions
+
+'isns' make base namespace:
+
+> namespace is;
+
+'isu' make all use lines:
+
+> use is\Helpers;
+> use is\Parents;
+> use is\Components;
+> ...
+
+next character set only appropriate namespaces.
+
+'isuh' make:
+
+> use is\Helpers\System;
+> use is\Helpers\Strings;
+> use is\Helpers\Objects;
+> ...
+
+'isv' make view operations
+
+'isv' print:
+
+> $view = View::getInstance();
+
+'isvg' print:
+
+> $view -> get('');
+
+'isvl' print:
+
+> $view -> get('lang|')
+
+'isvb' print:
+
+> $view -> get('layout') -> launch('blocks', '')
+
+'isvi' print:
+
+> $view -> get('layout') -> launch('blocks:default', 'items:')
+
+'isvp' print:
+
+> $view -> get('layout') -> launch('pages', '')
+
+hotkeys
+
+alt . +ctrl
+alt / +ctrl/+shift
+alt ' +ctrl/+shift
+
+alt-. -> print ` . `
+alt-/ -> print `DS`
+alt-' -> print `''`, `""`, `«»`
+alt-num+ -> true
+alt-num- -> false, null
+ctrl-del -> delete line
+alt-c -> compare
+
+macros
+
+formatted text -> delete double spaces, trim/no trim, and slashed quotes, convert quotes, one line
+array to json

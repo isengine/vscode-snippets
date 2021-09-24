@@ -1,0 +1,10 @@
+{
+	"helpers-system": {
+		"scope": "php",
+		"prefix": "iss",
+		"body": [
+			"System::$1"
+		],
+		"description": "Helpers System"
+	}
+}

@@ -36,7 +36,23 @@
         "snippets": [
             {
                 "language": "php",
-                "path": "./snippets/isengine.json"
+                "path": "./snippets/base.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers-objects.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers-strings.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers-system.json"
             }
         ]
     }
