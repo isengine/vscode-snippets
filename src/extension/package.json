@@ -53,6 +53,14 @@
             {
                 "language": "php",
                 "path": "./snippets/helpers-system.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/view.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/viewalt.json"
             }
         ]
     }

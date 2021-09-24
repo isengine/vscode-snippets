@@ -1,0 +1,80 @@
+{
+	"isEngine \"<?php ?>\" template": {
+		"scope": "php",
+		"prefix": "1",
+		"body": [
+			"<?php $1 ?>"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine \"<?= ?>\" template": {
+		"scope": "php",
+		"prefix": "11",
+		"body": [
+			"<?= $1 ?>"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine base view template": {
+		"scope": "php",
+		"prefix": "111",
+		"body": [
+			"<?php",
+			"",
+			"namespace is;",
+			"",
+			"use is\\Helpers\\System;",
+			"use is\\Helpers\\Strings;",
+			"use is\\Helpers\\Objects;",
+			"use is\\Masters\\View;",
+			"",
+			"\\$view = View::getInstance();",
+			"",
+			"$1",
+			"",
+			"?>"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine foreach operator": {
+		"scope": "php",
+		"prefix": "2",
+		"body": [
+			"foreach (\\$$1 as \\$key$2 => \\$item$3) {",
+			"	$4",
+			"}",
+			"unset(\\$key$5, \\$item$6);"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine if operator": {
+		"scope": "php",
+		"prefix": "3",
+		"body": [
+			"if ($1) {",
+			"	$2",
+			"}"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine elseif operator": {
+		"scope": "php",
+		"prefix": "33",
+		"body": [
+			" elseif ($1) {",
+			"	$2",
+			"}"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine else operator": {
+		"scope": "php",
+		"prefix": "333",
+		"body": [
+			" else {",
+			"	$1",
+			"}"
+		],
+		"description": "isEngine snippets group..."
+	}
+}

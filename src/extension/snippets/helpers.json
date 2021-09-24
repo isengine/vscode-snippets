@@ -1,0 +1,50 @@
+{
+	"isEngine Helpers Sessions::...": {
+		"scope": "php",
+		"prefix": ".se",
+		"body": [
+			"Sessions::$1($2)"
+		],
+		"description": "Helpers Sessions"
+	},
+	"isEngine Helpers Local::...": {
+		"scope": "php",
+		"prefix": ".l",
+		"body": [
+			"Local::$1($2)"
+		],
+		"description": "Helpers Local"
+	},
+	"isEngine Helpers Prepare::...": {
+		"scope": "php",
+		"prefix": ".p",
+		"body": [
+			"Prepare::$1($2)"
+		],
+		"description": "Helpers Prepare"
+	},
+	"isEngine Helpers Parser::...": {
+		"scope": "php",
+		"prefix": ".pa",
+		"body": [
+			"Parser::$1($2)"
+		],
+		"description": "Helpers Parser"
+	},
+	"isEngine Helpers Datetimes::...": {
+		"scope": "php",
+		"prefix": ".dt",
+		"body": [
+			"Datetimes::$1($2)"
+		],
+		"description": "Helpers Datetimes"
+	},
+	"isEngine Helpers Match::...": {
+		"scope": "php",
+		"prefix": ".m",
+		"body": [
+			"Match::$1($2)"
+		],
+		"description": "Helpers Match"
+	}
+}

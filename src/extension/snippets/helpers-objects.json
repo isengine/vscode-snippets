@@ -1,9 +1,9 @@
 {
-	"helpers-objects": {
+	"isEngine Helpers Objects::...": {
 		"scope": "php",
-		"prefix": "iso",
+		"prefix": ".o",
 		"body": [
-			"Objects::$1"
+			"Objects::$1($2)"
 		],
 		"description": "Helpers Objects"
 	}

@@ -1,0 +1,50 @@
+{
+	"isEngine view get instance": {
+		"scope": "php",
+		"prefix": ".v",
+		"body": [
+			"\\$view = View::getInstance();"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view get": {
+		"scope": "php",
+		"prefix": ".vg",
+		"body": [
+			"\\$view -> get('$1');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view lang": {
+		"scope": "php",
+		"prefix": ".vl",
+		"body": [
+			"\\$view -> get('lang|$1');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view blocks": {
+		"scope": "php",
+		"prefix": ".vb",
+		"body": [
+			"\\$view -> get('layout') -> launch('blocks$1', '$2');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view items": {
+		"scope": "php",
+		"prefix": ".vi",
+		"body": [
+			"\\$view -> get('layout') -> launch('blocks:default', 'items:$1');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view page": {
+		"scope": "php",
+		"prefix": ".vp",
+		"body": [
+			"\\$view -> get('layout') -> launch('pages', '$1');"
+		],
+		"description": "isEngine snippets group..."
+	}
+}

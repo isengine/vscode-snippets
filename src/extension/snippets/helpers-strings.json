@@ -1,9 +1,9 @@
 {
-	"helpers-strings": {
+	"isEngine Helpers Strings::...": {
 		"scope": "php",
-		"prefix": "isst",
+		"prefix": ".s",
 		"body": [
-			"Strings::$1"
+			"Strings::$1($2)"
 		],
 		"description": "Helpers Strings"
 	}

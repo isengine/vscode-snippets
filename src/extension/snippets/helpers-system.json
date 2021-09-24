@@ -1,9 +1,9 @@
 {
-	"helpers-system": {
+	"isEngine Helpers System::...": {
 		"scope": "php",
-		"prefix": "iss",
+		"prefix": ".sy",
 		"body": [
-			"System::$1"
+			"System::$1($2)"
 		],
 		"description": "Helpers System"
 	}
