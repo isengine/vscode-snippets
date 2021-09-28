@@ -1,0 +1,86 @@
+{
+	"isEngine view get instance": {
+		"scope": "php",
+		"prefix": ".vvar",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{$1}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view get": {
+		"scope": "php",
+		"prefix": ".vvarphone",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{phone|{lang|information:phone:0}$1}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view lang": {
+		"scope": "php",
+		"prefix": ".vvarmail",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{mail|{lang|information:email:0}$1}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view blocks": {
+		"scope": "php",
+		"prefix": ".vvaricon",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{icon|$1}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view items": {
+		"scope": "php",
+		"prefix": ".vvaryt",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{youtube|$1}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view page": {
+		"scope": "php",
+		"prefix": ".vvartime",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{time|{$1}}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view page": {
+		"scope": "php",
+		"prefix": ".vvarurl",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{url|$1:class$2:content$3}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view page": {
+		"scope": "php",
+		"prefix": ".vvarimg",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{img|url$1::classes$2:alt$3}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view page": {
+		"scope": "php",
+		"prefix": ".vvarlazy",
+		"body": [
+			"\\$view -> get('tvars') -> launch('{img|url$1:lazyurl$2:lazyload classes$3:alt$4}');"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view page": {
+		"scope": "php",
+		"prefix": ".vvarlazycode",
+		"body": [
+			"<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js\"></script>",
+			"<script>",
+			"lozad('.lazyload').observe();",
+			"lozad( document.querySelector('img') ).observe();",
+			"</script>$1"
+		],
+		"description": "isEngine snippets group..."
+	}
+}

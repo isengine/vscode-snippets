@@ -60,7 +60,7 @@
             },
             {
                 "language": "php",
-                "path": "./snippets/viewalt.json"
+                "path": "./snippets/view-vars.json"
             }
         ]
     }
