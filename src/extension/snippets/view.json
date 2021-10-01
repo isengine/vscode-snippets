@@ -46,5 +46,13 @@
 			"\\$view -> get('layout') -> launch('pages', '$1');"
 		],
 		"description": "isEngine snippets group..."
+	},
+	"isEngine view module": {
+		"scope": "php",
+		"prefix": ".vm",
+		"body": [
+			"\\$view -> get('module') -> launch('$1', '$2');"
+		],
+		"description": "isEngine snippets group..."
 	}
 }
