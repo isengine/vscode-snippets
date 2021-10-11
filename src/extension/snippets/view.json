@@ -54,5 +54,21 @@
 			"\\$view -> get('module') -> launch('$1', '$2');"
 		],
 		"description": "isEngine snippets group..."
+	},
+	"isEngine view content entry": {
+		"scope": "php",
+		"prefix": ".vce",
+		"body": [
+			"\\$view -> get('content|entry') -> getData($1);"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine view content map": {
+		"scope": "php",
+		"prefix": ".vcm",
+		"body": [
+			"\\$view -> get('content') -> getData($1);"
+		],
+		"description": "isEngine snippets group..."
 	}
 }
