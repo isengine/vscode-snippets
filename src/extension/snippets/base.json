@@ -76,5 +76,21 @@
 			"}"
 		],
 		"description": "isEngine snippets group..."
+	},
+	"isEngine debug": {
+		"scope": "php",
+		"prefix": ".p",
+		"body": [
+			"System::debug(\\$$1)"
+		],
+		"description": "isEngine snippets group..."
+	},
+	"isEngine quick debug": {
+		"scope": "php",
+		"prefix": ".q",
+		"body": [
+			"System::debug(\\$$1, '!q')"
+		],
+		"description": "isEngine snippets group..."
 	}
 }
