@@ -23,6 +23,14 @@
 		],
 		"description": "isEngine snippets group..."
 	},
+	"isEngine view display": {
+		"scope": "php",
+		"prefix": ".vd",
+		"body": [
+			"\\$view -> get('display') -> addBuffer($1);"
+		],
+		"description": "isEngine snippets group..."
+	},
 	"isEngine view get": {
 		"scope": "php",
 		"prefix": ".vg",
