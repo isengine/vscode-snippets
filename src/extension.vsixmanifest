@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="isengine-vscode-snippets" Version="1.0.0" Publisher="isengine"/>
+    <Identity Language="en-US" Id="isengine-vscode-snippets" Version="1.0.1" Publisher="isengine"/>
     <DisplayName>isEngine Snippets</DisplayName>
     <Description xml:space="preserve">isEngine development snippets for Visual Studio Code</Description>
     <Tags>isengine,snippet,__web_extension</Tags>

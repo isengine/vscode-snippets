@@ -1,6 +1,6 @@
 # isEngine Snippets
 
-[`isEngine Snippets`](https://marketplace.visualstudio.com/items?itemName=isengine.vscode-snippets) extension for Visual Studio Code.
+[`isEngine Snippets`](https://marketplace.visualstudio.com/items?itemName=isengine.isengine-vscode-snippets) extension for Visual Studio Code.
 - isEngine 1.0
 
 ## Usage
